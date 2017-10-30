@@ -1,0 +1,129 @@
+body {
+  /* change my background and set global font family */
+  font-family: sans-serif;
+  background-color: black;
+}
+
+header h1 {
+  /* make bigger, change color, change font family */
+  width: 1000px;
+  height: 60px;
+  padding: 60px 20px 5px 20px;
+  margin: auto;
+  
+  background: white;
+  color: purple;
+  font-size: 36pt;
+  text-align: center;
+}
+
+.main-nav {
+  /* change the background color, remove bullets, add border for each individual nav element, float the links, center our content within the links, width on links, font color, font family */
+  width: 1040px;
+  height: 15px;
+  padding: 0.5% 0;
+  margin: auto;
+  
+  background-color: rebeccapurple;
+  text-align: center;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+  padding: 5%;
+  
+}
+
+.horizontal-list li {
+  display: inline;
+}
+
+aside {
+  /* clear float, float left, background color */
+  width: 12%;
+  height: 800px;
+  float: left;
+  margin-left: 320px;
+  padding: 20px;
+  
+  background-color: mediumpurple;
+}
+
+aside ul {
+  /* clear both */
+}
+
+article {
+  /* background color, float to the right */
+  
+}
+
+.main-article {
+  background-color: lightgrey;
+  width: 798px;
+  height: 840px;
+  float: right;
+  margin-right: 320px;
+  text-align: center;
+}
+
+figure {
+/* figure: we want to center that using margin: auto */
+  margin: 60px 120px 0 120px;
+}
+
+figcaption {
+  padding: 20px;
+}
+
+footer {
+  width: 1000px;
+  height: 67px;
+  clear: both;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  
+  
+}
+
+footer a {
+  padding: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
