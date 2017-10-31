@@ -1,16 +1,19 @@
 body {
-  /* change my background and set global font family */
+  /* change my background and set global font family with backup fonts*/
   font-family: sans-serif, arial, Helvetica;
   background-color: black;
 }
 
 .content-wrapper {
+  /* page center along with taking up 60% of the whole page */
   width: 60%;
   margin: auto;
+  
+  background-color: lightgrey;
 }
 
 header h1 {
-  /* make bigger, change color */
+  /* make bigger, change font color, background color, more top padding than bottom */
   padding-top: 70px;
   padding-bottom: 20px;
   
@@ -21,7 +24,7 @@ header h1 {
 }
 
 .main-nav {
-  /* change the background color, remove bullets, add border for each individual nav element, float the links, center our content within the links, width on links, font color, font family */
+  /* change the background color, remove bullets, add border for each individual nav element, float the links, center our content within the links, width on links, font color */
   padding-top: 10px;
   padding-bottom: 10px;
   
@@ -36,12 +39,17 @@ ul a {
   
 }
 
+.right-border {
+  border-right: 1px solid white;
+}
+
 .horizontal-list li {
+  /* making list in nav bar go horizontal */
   display: inline;
 }
 
 aside {
-  /* clear float, float left, background color */
+  /* float left, change background color, take up on 25% of the container */
   float: left;
   width: 25%;
   padding: 20px 0 20px 0;
@@ -50,6 +58,7 @@ aside {
 }
 
 aside img {
+  /* center images, give them min and max height and width, spread them evenly */
   display: block;
   max-width: 200px;
   max-height: 150px;
@@ -61,37 +70,38 @@ aside img {
 }
 
 .main-article {
+  /* float right, take up 75% of container, add padding to top, change background color */
   float: right;
   width: 75%;
-  padding: 20px 0 569px 0;
-  background-color: lightgrey;
 }
 
 .main-article img {
-  width: 75%;
+  /* take up 75% of main-article, have it centered */
   display: block;
-  margin: 0 auto;
-  border: 1px solid black;
+  width: 75%;
+  margin: auto;
+  padding-top: 20px;
 }
 
 figcaption {
+  /* center below image and add top padding */
   width: 75%;
   margin: auto;
-  border: 1px solid black;
-  padding: 10px 0 0 0;
+  padding-top: 10px;
   text-align: center;
 }
 
 footer {
+  /* clear float and add padding to top and bottom, center aline, add links */
   clear: both;
-  padding: 20px;
-  
+  padding: 25px 0 25px 0;
   text-align: center;
   background-color: white;
 }
 
 footer a {
-  padding: 5%;
+  /* add spaces between icons */
+  padding: 0 50px 0 50px;
 }
 
 
