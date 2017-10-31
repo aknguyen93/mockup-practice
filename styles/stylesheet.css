@@ -12,13 +12,16 @@ body {
   background-color: lightgrey;
 }
 
+header {
+  background: white;
+  color: purple;
+}
+
 header h1 {
-  /* make bigger, change font color, background color, more top padding than bottom */
+  /* make bigger, more top padding than bottom */
   padding-top: 70px;
   padding-bottom: 20px;
   
-  background: white;
-  color: purple;
   font-size: 36pt;
   text-align: center;
 }
@@ -35,8 +38,6 @@ header h1 {
 ul a {
   text-decoration: none;
   color: white;
-  padding: 0 45px 0 45px;
-  
 }
 
 .right-border {
@@ -45,7 +46,9 @@ ul a {
 
 .horizontal-list li {
   /* making list in nav bar go horizontal */
-  display: inline;
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 aside {
@@ -103,38 +106,3 @@ footer a {
   /* add spaces between icons */
   padding: 0 50px 0 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
